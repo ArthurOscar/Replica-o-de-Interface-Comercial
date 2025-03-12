@@ -1,7 +1,15 @@
+* {
+    margin: 0;
+}
+
 .navbar {
     background-color: rgb(201, 198, 198);
     margin: 0;
     padding: 0;
+}
+
+#titulo-navbar {
+    padding-left: 10px;
 }
 
 .transparente {
@@ -16,6 +24,8 @@
 
 .flex p {
     margin: 0;
+    align-content: center;
+    opacity: 50%;
 }
 
 
@@ -24,10 +34,73 @@
     height: 20px;
 }
 
-.class {
-    background-color: rgb(129, 129, 230);
+.fundo-azul {
+    background-color: rgb(166, 166, 247);
 }
 
-.fundo-azul{
-    background-color: rgb(166, 166, 247);
+.lado-esquerdo {
+    max-width: 20%;
+}
+
+.titulo-esquerdo {
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+}
+
+.titulo-esquerdo h4 {
+    align-content: center;
+}
+
+.navbar-esquerdo {
+    display: flex;
+    background-color: rgb(201, 198, 198);
+    justify-content: space-between;
+    width: 94%;
+    padding-left: 20px;
+}
+
+.navbar-esquerdo p {
+    margin: 0;
+    opacity: 50%;
+    align-content: center;
+}
+
+.tabela-esquerda {
+    display: flex;
+}
+
+#tabela-complementar {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 12%;
+}
+
+#tabela-principal {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+}
+
+#tabela-complementar td {
+    display: flex;
+    height: 20px;
+    background-color: rgb(201, 198, 198)
+}
+
+#tabela-complementar th {
+    height: 37px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(201, 198, 198)
 }
