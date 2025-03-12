@@ -1,0 +1,33 @@
+.navbar {
+    background-color: rgb(201, 198, 198);
+    margin: 0;
+    padding: 0;
+}
+
+.transparente {
+    opacity: 20%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.flex p {
+    margin: 0;
+}
+
+
+#amarelo {
+    background-color: yellow;
+    height: 20px;
+}
+
+.class {
+    background-color: rgb(129, 129, 230);
+}
+
+.fundo-azul{
+    background-color: rgb(166, 166, 247);
+}
